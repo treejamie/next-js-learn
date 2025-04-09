@@ -16,8 +16,11 @@ export async function fetchRevenue() {
     // this is where chapter 8 inserted a delay.
     // it was to labour the point that with dynamic rendering
     // you can only be as fast as your slowest fetch.
+    console.log('Fetching revenue data...');
+    await new Promise((resolve) => setTimeout(resolve, 3000))
 
     // get the data and return it
+    console.log('Data fetch completed after 3 seconds.');
     const data = await sql<Revenue[]>`SELECT * FROM revenue`;
     return data;
   } catch (error) {

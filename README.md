@@ -58,4 +58,4 @@ Part of this tutorial was to deploy it out to vercel. It was very slick.I took t
 [2-6]: https://github.com/treejamie/next-js-learn/pull/13
 [2-7]: https://github.com/treejamie/next-js-learn/pull/15
 [2-8]: https://github.com/treejamie/next-js-learn/pull/16
-[2-9]: https://github.com/treejamie/next-js-learn/pull/16
+[2-9]: https://github.com/treejamie/next-js-learn/pull/17
