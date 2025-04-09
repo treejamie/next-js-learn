@@ -38,7 +38,7 @@ Part of this tutorial was to deploy it out to vercel. It was very slick.I took t
 6. [Setting Up Your Database ♻️][2-6]  
 7. [Fetching Data ♻️][2-7]  
 8. [Static and Dynamic Rendering ♻️][2-8]
-9. Streaming 🚧 
+9. [Streaming ♻️][2-9]
 10. Partial Prerendering ️🚧 
 11. Adding Search and Pagination 🚧 
 12. Mutating Data 🚧 
@@ -58,3 +58,4 @@ Part of this tutorial was to deploy it out to vercel. It was very slick.I took t
 [2-6]: https://github.com/treejamie/next-js-learn/pull/13
 [2-7]: https://github.com/treejamie/next-js-learn/pull/15
 [2-8]: https://github.com/treejamie/next-js-learn/pull/16
+[2-9]: https://github.com/treejamie/next-js-learn/pull/16
