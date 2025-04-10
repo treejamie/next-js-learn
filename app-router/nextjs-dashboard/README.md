@@ -6,6 +6,12 @@
 
 Part of this tutorial was to deploy it out to vercel. It was very slick.I took the liberty of putting it on a custom domain and you can find it there 👉 [next-js-dashboard.curle.io](https://next-js-dashboard.curle.io)
 
+To login, use
+```
+user@nextmail.com
+123456
+```
+
 
 1. [Getting Started ♻️][2-1]  
 2. [CSS Styling ♻️][2-2]
