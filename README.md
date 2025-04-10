@@ -41,13 +41,11 @@ Part of this tutorial was to deploy it out to vercel. It was very slick.I took t
 9. [Streaming ♻️][2-9]
 10. Partial Prerendering ✅ (_no code, theory / beta functionality_)
 11. [Adding Search and Pagination ♻️][2-11]
-12. [Mutating Data️][2-12]
-13. Handling Errors 🚧 
+12. [Mutating Data️ ♻️][2-12]
+13. [Handling Errors ♻️][2-13]
 14. Improving Accessibility 🚧 
 15. Adding Authentication 🚧  
 16. Adding Metadata 🚧️ 
-
-
 
 
 [2-1]: https://github.com/treejamie/next-js-learn/pull/7
@@ -61,3 +59,4 @@ Part of this tutorial was to deploy it out to vercel. It was very slick.I took t
 [2-9]: https://github.com/treejamie/next-js-learn/pull/17
 [2-11]: https://github.com/treejamie/next-js-learn/pull/19
 [2-12]: https://github.com/treejamie/next-js-learn/pull/20
+[2-13]: https://github.com/treejamie/next-js-learn/pull/23
