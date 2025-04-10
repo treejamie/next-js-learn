@@ -21,7 +21,7 @@ Part of this tutorial was to deploy it out to vercel. It was very slick.I took t
 12. [Mutating Data️ ♻️][2-12]
 13. [Handling Errors ♻️][2-13]
 14. [Improving Accessibility ♻️][2-14]
-15. Adding Authentication 🚧  
+15. [Adding Authentication ♻️][2-15] 
 16. Adding Metadata 🚧️ 
 
 
@@ -38,3 +38,4 @@ Part of this tutorial was to deploy it out to vercel. It was very slick.I took t
 [2-12]: https://github.com/treejamie/next-js-learn/pull/20
 [2-13]: https://github.com/treejamie/next-js-learn/pull/23
 [2-14]: https://github.com/treejamie/next-js-learn/pull/25
+[2-15]: https://github.com/treejamie/next-js-learn/pull/28

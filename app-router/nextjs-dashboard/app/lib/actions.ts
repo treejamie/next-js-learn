@@ -4,12 +4,15 @@ import { z } from 'zod';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
 import postgres from 'postgres';
+ 
+import { signIn } from '@/auth';
+import { AuthError } from 'next-auth';
 
 const sql = postgres(process.env.POSTGRES_URL!, { ssl: 'require' });
 
 // maybe this will get solved later, but this is already
 // defined in the definitions to an extent. Is this some
-// stink?
+// stink?  Or is Zod mighty?
 const FormSchema = z.object({
   id: z.string(),
   customerId: z.string({
@@ -23,6 +26,28 @@ const FormSchema = z.object({
   }),
   date: z.string(),
 });
+
+export async function authenticate(
+  prevState: string | undefined,
+  formData: FormData,
+) {
+  try {
+    await signIn('credentials', formData);
+  } catch (error) {
+    if (error instanceof AuthError) {
+      switch (error.type) {
+        case 'CredentialsSignin':
+          return 'Invalid credentials.';
+        default:
+          return 'Something went wrong.';
+      }
+    }
+    throw error;
+  }
+}
+
+
+
 
 const CreateInvoice = FormSchema.omit({ id: true, date: true });
 
