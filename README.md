@@ -48,8 +48,6 @@ Part of this tutorial was to deploy it out to vercel. It was very slick.I took t
 16. Adding Metadata 🚧️ 
 
 
-
-
 [2-1]: https://github.com/treejamie/next-js-learn/pull/7
 [2-2]: https://github.com/treejamie/next-js-learn/pull/9
 [2-3]: https://github.com/treejamie/next-js-learn/pull/10
