@@ -2,7 +2,7 @@
 
 This repo contains all of the code artefacts from following along with the tutorials on nextjs.org.
 
-The tutorials where not really designed to be done in the same repo, so the base directories for each need to be alterered if they are to be deployed.
+The tutorials were not really designed to be done in the same repo, so the base directories for each need to be alterered if they are to be deployed.
 
 ### [React Foundations](https://nextjs.org/learn/react-foundations)  ✅
 
