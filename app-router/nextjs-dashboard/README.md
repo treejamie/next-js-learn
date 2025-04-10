@@ -6,6 +6,9 @@
 
 Part of this tutorial was to deploy it out to vercel. It was very slick.I took the liberty of putting it on a custom domain and you can find it there 👉 [next-js-dashboard.curle.io](https://next-js-dashboard.curle.io)
 
+However, there was a point around lesson 12 that the free plan stopped supporting preview branches. It was fairly cryptic about how to clear that up (_"delete branches" >> vercel seems to have only a concept of deployments, which I deleted all but prod and still no beueno_).
+
+However, I'm not paying for anything so I'm just grateful I get to have it up there for free.
 
 1. [Getting Started ♻️][2-1]  
 2. [CSS Styling ♻️][2-2]
@@ -22,7 +25,7 @@ Part of this tutorial was to deploy it out to vercel. It was very slick.I took t
 13. [Handling Errors ♻️][2-13]
 14. [Improving Accessibility ♻️][2-14]
 15. [Adding Authentication ♻️][2-15] 
-16. Adding Metadata 🚧️ 
+16. [Adding Metadata ♻️][2-16] 
 
 
 [2-1]: https://github.com/treejamie/next-js-learn/pull/7
