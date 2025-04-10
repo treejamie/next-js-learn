@@ -6,6 +6,12 @@
 
 Part of this tutorial was to deploy it out to vercel. It was very slick.I took the liberty of putting it on a custom domain and you can find it there 👉 [next-js-dashboard.curle.io](https://next-js-dashboard.curle.io)
 
+To login, use
+```
+user@nextmail.com
+123456
+```
+
 
 1. [Getting Started ♻️][2-1]  
 2. [CSS Styling ♻️][2-2]
@@ -22,7 +28,7 @@ Part of this tutorial was to deploy it out to vercel. It was very slick.I took t
 13. [Handling Errors ♻️][2-13]
 14. [Improving Accessibility ♻️][2-14]
 15. [Adding Authentication ♻️][2-15] 
-16. Adding Metadata 🚧️ 
+16. [Adding Metadata ♻️][2-16] 
 
 
 [2-1]: https://github.com/treejamie/next-js-learn/pull/7
@@ -39,3 +45,4 @@ Part of this tutorial was to deploy it out to vercel. It was very slick.I took t
 [2-13]: https://github.com/treejamie/next-js-learn/pull/23
 [2-14]: https://github.com/treejamie/next-js-learn/pull/25
 [2-15]: https://github.com/treejamie/next-js-learn/pull/28
+[2-16]: https://github.com/treejamie/next-js-learn/pull/29
